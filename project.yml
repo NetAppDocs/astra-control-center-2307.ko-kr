@@ -1,6 +1,7 @@
 ---
 settings:
-  name: Astra Control Center 23.07 documentation
+  name: Astra Control Center
+  downlevel: true
   internal:
     pdf_enabled: true
   prod:
@@ -23,7 +24,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: Astra Control Center 문서
+  - title: Astra Control Center 23.07 문서
     url: "/index.html"
   - section: release-notes
   - section: get-started
