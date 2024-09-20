@@ -190,7 +190,6 @@ Astra Control Center에서 클러스터 관리를 해제하면 Astra Trident가 
   <block id="90d397f2aa31c2e6d9f5dfda5d12adca" category="paragraph">Astra Control Center는 프라이빗 클라우드에서 로컬로 실행됩니다.</block>
   <block id="95936e8fb1e1f6bf4c0671f4ccc84fe7" category="paragraph">Astra Control Center는 ONTAP 9.5 이상의 스토리지 백엔드가 있는 Astra Trident 기반 스토리지 클래스를 통해 Kubernetes 클러스터를 지원합니다.</block>
   <block id="51269e2584d26b04961877ec77db6da7" category="paragraph">클라우드 연결 환경에서 Astra Control Center는 Cloud Insights를 사용하여 고급 모니터링 및 원격 측정 기능을 제공합니다. Cloud Insights 연결이 없을 경우 Astra Control Center에서 제한된(7일 메트릭) 모니터링 및 원격 측정 기능을 사용할 수 있으며, 개방형 메트릭 엔드 포인트를 통해 Kubernetes 기본 모니터링 툴(예: Prometheus 및 Grafana)으로 내보낼 수 있습니다.</block>
-  <block id="ea2708b459fc0cad6936ec216bd9405e" category="paragraph">Astra Control Center는 AutoSupport 및 Active IQ 에코시스템에 완전히 통합되어 사용자와 NetApp 지원에 문제 해결 및 사용 정보를 제공합니다.</block>
   <block id="e4a6d61b6602f5e6d6468645b096f45e" category="paragraph">90일 임베디드 평가판 라이센스를 사용하여 Astra Control Center를 사용해 볼 수 있습니다. Astra Control Center를 평가하는 동안 이메일과 커뮤니티 옵션을 통해 지원을 받을 수 있습니다. 또한 제품 내 지원 대시보드에서 Knowledgebase 문서 및 문서에 액세스할 수 있습니다.</block>
   <block id="b4851e92b19af0c5c82447fc0937709d" category="inline-link">요구 사항</block>
   <block id="ebd65e27e034512530c808d2d0aa364d" category="paragraph">Astra Control Center를 설치하고 사용하려면 반드시 충족해야 합니다<block ref="0a14e0fc52cf8d6c6274f9c6e777d67d" category="inline-link-rx"></block>.</block>
@@ -980,7 +979,6 @@ Astra Trident는 가져오기 및 검색 프로세스의 일부로 자동으로 
 참고: 사용하지 마십시오<block ref="dbd7790bcd23fde7607101ef6a633779" prefix=" " category="inline-code"></block> 또는<block ref="f8eae6750519389e078e1eb1bcb3d708" prefix=" " category="inline-code"></block> 를 입력합니다. 에서 사용하기 위해 이 FQDN을 복사합니다 <block ref="39c8566ec35b62823c898c5e38a4b78c" category="inline-xref-macro-rx"></block>.</block>
   <block id="a35d697fca562fcd8adcc6a07880b3d5" category="cell"><block ref="51c3153f8b9ad8f3a27b28d6c8f95aab" prefix="" category="inline-code"></block></block>
   <block id="16655bd6caa78814980ce90854a07356" category="example-title">&lt;code&gt;autoSupport&lt;/code&gt;</block>
-  <block id="7548d8cfdbba865da930704f30a7542f" category="paragraph">이 섹션에서 어떤 항목을 선택하는지에 따라 NetApp의 사전 지원 애플리케이션인 NetApp Active IQ에 참여할 것인지, 그리고 데이터를 보낼 위치를 결정할 수 있습니다. 인터넷 연결이 필요하며(포트 442) 모든 지원 데이터가 익명화됩니다.</block>
   <block id="ad8783089f828b927473fb61d51940ec" category="cell">사용</block>
   <block id="60d9e21a93c21f0d9ec8e72e12270054" category="cell"><block ref="774a4ec4adf9dd65264c77b3b87833b7" prefix="" category="inline-code"></block></block>
   <block id="24b6133a8f6f0866838539b9ca41cfa7" category="cell">둘 다 가능합니다<block ref="ff7af27948b380bff5d583359796d3c8" prefix=" " category="inline-code"></block> 또는<block ref="572d4e421e5e6b9bc11d815e8a027112" prefix=" " category="inline-code"></block> 필드를 선택해야 합니다</block>
@@ -2729,7 +2727,6 @@ CRD는 클러스터 전체 오브젝트이며 이를 설치하면 클러스터�
   <block id="35f3a2f7a0f2c01d03afedb95ece66ab" category="inline-link">NetApp 인증된 파일 업로드(로그인 필요)</block>
   <block id="1c2989d4329c8aeec5e01506816fb04e" category="list-text">사용<block ref="4b0bc63f683ccbf4dcf0ba2a6a1b561f" category="inline-link-rx"></block>.</block>
   <block id="94bcffc8ff8a109a8267202d2aaa5526" category="list-text">NSS에서 케이스에 번들을 직접 부착합니다.</block>
-  <block id="4345f2150d39e38a6a11ee7ee57bed28" category="list-text">NetApp Active IQ 사용</block>
   <block id="51d249216b03414f10b242b851af7951" category="doc">Astra Control 구성 요소</block>
   <block id="5ddd50ee81b614308861ff77d7830f09" category="inline-image-macro">Astra Control 아키텍처 및 해당 구성 요소를 설명하는 개념적 이미지입니다</block>
   <block id="9a5af8d21a89c12b2cbe1b8eef81601d" category="paragraph"><block ref="9a5af8d21a89c12b2cbe1b8eef81601d" category="inline-image-macro-rx" type="image"></block></block>
@@ -3128,4 +3125,7 @@ CRD는 클러스터 전체 오브젝트이며 이를 설치하면 클러스터�
   <block id="8d85c59d57ad2cafad4f894413219af0" category="sidebar">스토리지 클래스 및 PV 크기</block>
   <block id="ae5601e1a5453d0b5924098584b9c3f2" category="sidebar">Astra Control Center의 이번 릴리스의 새로운 기능</block>
   <block id="6864eb9fc45cd6c1219a8562ce1cbe18" category="sidebar">Astra Control Center 23.07 문서</block>
+  <block id="a9cf730f8ab04a5b52f1d19c74c1483c" category="paragraph">Astra Control Center는 AutoSupport 및 Active IQ Digital Advisor(Digital Advisor라고도 함) 에코시스템에 완벽하게 통합되어 사용자 및 NetApp 지원에 문제 해결 및 사용 정보를 제공합니다.</block>
+  <block id="d89b38e0f587f8fa359a431abd35bb40" category="paragraph">이 섹션에서 선택한 항목에 따라 NetApp의 사전 지원 응용 프로그램, 디지털 어드바이저 및 데이터 전송 위치가 결정됩니다. 인터넷 연결이 필요하며(포트 442) 모든 지원 데이터가 익명화됩니다.</block>
+  <block id="3cf9bc07c0ae31018d3336b8f32de6c8" category="list-text">Digital Advisor 사용</block>
 </blocks>
